@@ -1,0 +1,32 @@
+C:\Projetos\Proxy.Clinica.Geral\Geral\bin\Debug\Geral.dll
+C:\Projetos\Proxy.Clinica.Geral\Geral\bin\Debug\Geral.pdb
+C:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.dll
+C:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.pdb
+C:\Projetos\Build\Geral.dll
+C:\Projetos\Build\Geral.pdb
+D:\Projetos\Build\Geral.dll
+D:\Projetos\Build\Geral.pdb
+D:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.dll
+D:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.pdb
+G:\Projetos\Build\Geral.dll
+G:\Projetos\Build\Geral.pdb
+G:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\ResolveAssemblyReference.cache
+G:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.dll
+G:\Projetos\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas\Build\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas\Build\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas\Proxy.Clinica.Geral\Geral\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas - WEB\MedClinicas-WEB\MedClinicas-WEB\Build\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas - WEB\MedClinicas-WEB\MedClinicas-WEB\Build\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas - WEB\Proxy.Clinica.Geral\Geral\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas - WEB\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\MedClinicas - WEB\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\MedClinicas-WEB\MedClinicas-WEB\Build\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\MedClinicas-WEB\MedClinicas-WEB\Build\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\obj\Debug\Geral.pdb

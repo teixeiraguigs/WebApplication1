@@ -1,0 +1,174 @@
+﻿body {
+   
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    float:left;
+    margin-left:20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select{
+    max-width: 280px;
+    float:left;
+}
+
+.list-group {
+    width:150px;
+    height:450px;
+    background-color:#428BCA;
+    border-radius:10px;
+    float:left;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+}
+
+.page-header {
+    margin-top:-15px;
+
+    color:#428BCA;
+    border-bottom: 2px solid #428BCA;
+}
+h3{
+    color:#428BCA;
+    margin-left:auto;    
+    margin-right:auto;
+}
+h4{
+    float: left;
+}
+
+.formConteudo{
+    width:750px;
+    height:780px;    
+}
+.formEventoTurma{
+    width:730px;
+    height:300px;
+    border:1px solid rgba(66,139,202,0.5);
+    border-radius:10px;
+    margin-top:50px;
+    margin-left:10px;
+    
+}
+span{
+    color:#428BCA;
+    font-size:18px;
+    
+}
+label {
+    color:#428BCA;
+    font-size:16px;
+    margin-left:10px;
+    
+}
+.form-control{
+    margin-left:15px;
+    
+}
+hr {
+margin-top: -4px;
+margin-bottom: 1px;
+border: 0;
+border-top: 1px solid #428BCA;
+}
+textarea {
+    width:350px;
+    height:100px;
+    border-radius:10px;
+    resize:none;
+}
+.linhaX{
+    height:20px;
+    border-right:1px solid #428BCA;
+    float:left;
+    margin-left:5px;
+}
+
+
+
+.mGrid table
+{
+    /*border: 1px solid #000000;*/
+    border-top: 1px solid #d7d8da;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.mGrid td
+{
+    /*border: solid 1px #d7d8da;*/
+    border-top: 1px solid #d7d8da;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    /*background-color: #eeeff1;*/
+    font:  12px Arial;
+    text-align: left;
+    color: #000;
+    padding: 4px 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.TabHeader
+{
+    width: 100%;
+}
+.TabHeader td
+{
+    background: #F9F9F9;
+    color: #fff;
+    /*padding: 5px;*/
+    /*border-right: 1px solid #fff;*/
+    border-top: 1px solid #d7d8da;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+
+    border-top: solid 1px #d7d8da;
+    font: bold 14px Arial;
+    text-align: left;
+}
+.select td
+{
+    /*border: solid 1px #d7d8da;*/
+    border-top: 1px solid #d7d8da;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+
+    background-color: #0387c9;
+    font: bold 10px Tahoma;
+    text-align: left;
+    color: #fff;
+    padding: 8px 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.AlinhaTextoLeft{
+    text-align:center;
+}
+
+
+.formAvisos{
+    width:650px;
+    height:800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10px;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+    margin-left:950px;
+}

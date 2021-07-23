@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link href="Content/bootstrap.min.css" rel="stylesheet" />
+<link href="Content/Site.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+<div class="page-header">
+        <div style="margin-left:170px;"><h1>Sistema de cadastro de produtos</h1></div>
+        
+    </div>
+    
+    <form id="form1" runat="server">
+    <div class="list-group">
+        <h4><asp:Button ID="btnBuscarProduto" runat="server" Text="Buscar Produto" class="list-group-item active" style="text-align:left; border-bottom-color:#FFF; border-bottom-width:1px; width:130px; white-space:normal;" OnClick="btnBuscarProduto_Click" /></h4>
+        <h4><asp:Button ID="btnCadProduto" runat="server" Text="Cadastrar Produto" class="list-group-item active" style="text-align:left; border-bottom-color:#FFF; border-bottom-width:1px; width:130px; white-space:normal;" OnClick="btnCadProduto_Click"/></h4>
+        <h4><asp:Button ID="btnCadCategoria" runat="server" Text="Cadastrar Categoria" class="list-group-item active" style="text-align:left; border-bottom-color:#FFF; border-bottom-width:1px; width:130px; white-space:normal; top: 0px; left: 0px;" OnClick="btnCadCategoria_Click"/></h4>
+        <h4><asp:Button ID="btnSair" runat="server" Text="Sair" class="list-group-item active" style="text-align:left; border-bottom-color:#FFF; border-bottom-width:1px; width:130px; white-space:normal;" OnClick="btnSair_Click"/></h4>
+
+    </div>
+       <div class="container body-content">
+            <div class="formConteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>                
+            </div>
+            
+            <%--<footer class="panel-footer modal-footer">
+            </footer>--%>
+        </div>
+    </form>
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+</body>
+</html>

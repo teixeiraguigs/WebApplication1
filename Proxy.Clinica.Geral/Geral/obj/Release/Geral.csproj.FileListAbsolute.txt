@@ -1,0 +1,26 @@
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\bin\Release\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\bin\Release\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\obj\Release\ResolveAssemblyReference.cache
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\obj\Release\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\Ocorrencias Agendamento - WEB\Proxy.Clinica.Geral\Geral\obj\Release\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\AgendamentoSalasTreinamento\Proxy.Clinica.Geral\Geral\bin\Release\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\AgendamentoSalasTreinamento\Proxy.Clinica.Geral\Geral\bin\Release\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\AgendamentoSalasTreinamento\Proxy.Clinica.Geral\Geral\obj\Release\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\AgendamentoSalasTreinamento\Proxy.Clinica.Geral\Geral\obj\Release\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\AgendamentoSalasTreinamento\Proxy.Clinica.Geral\Geral\obj\Release\Geral.csprojResolveAssemblyReference.cache
+C:\Users\bruno-gs\Documents\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\bin\Release\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\bin\Release\Geral.pdb
+C:\Users\bruno-gs\Documents\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\obj\Release\Geral.dll
+C:\Users\bruno-gs\Documents\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\obj\Release\Geral.pdb
+C:\Users\Guilherme Teixeira\Google Drive\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\bin\Release\Geral.dll
+C:\Users\Guilherme Teixeira\Google Drive\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\bin\Release\Geral.pdb
+C:\Users\Guilherme Teixeira\Google Drive\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\obj\Release\Geral.csprojAssemblyReference.cache
+C:\Users\Guilherme Teixeira\Google Drive\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\obj\Release\Geral.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Teixeira\Google Drive\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\obj\Release\Geral.dll
+C:\Users\Guilherme Teixeira\Google Drive\Projetos\WebFormsControleEventosUNEP\Proxy.Clinica.Geral\Geral\obj\Release\Geral.pdb
+C:\Users\Guilherme Teixeira\Documents\Guilherme\Proj\AvaliacaoMazza\Cadastro de produtos\Proxy.Clinica.Geral\Geral\bin\Release\Geral.dll
+C:\Users\Guilherme Teixeira\Documents\Guilherme\Proj\AvaliacaoMazza\Cadastro de produtos\Proxy.Clinica.Geral\Geral\bin\Release\Geral.pdb
+C:\Users\Guilherme Teixeira\Documents\Guilherme\Proj\AvaliacaoMazza\Cadastro de produtos\Proxy.Clinica.Geral\Geral\obj\Release\Geral.csprojAssemblyReference.cache
+C:\Users\Guilherme Teixeira\Documents\Guilherme\Proj\AvaliacaoMazza\Cadastro de produtos\Proxy.Clinica.Geral\Geral\obj\Release\Geral.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Teixeira\Documents\Guilherme\Proj\AvaliacaoMazza\Cadastro de produtos\Proxy.Clinica.Geral\Geral\obj\Release\Geral.dll
+C:\Users\Guilherme Teixeira\Documents\Guilherme\Proj\AvaliacaoMazza\Cadastro de produtos\Proxy.Clinica.Geral\Geral\obj\Release\Geral.pdb

@@ -1,0 +1,86 @@
+USE [TesteTI]
+GO
+
+/****** Object:  StoredProcedure [CadProdutos].[PROC_CADPRODUTOS]    Script Date: 22/07/2021 23:49:05 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [CadProdutos].[PROC_CADPRODUTOS]
+@ID INT = NULL, @DESCRICAO VARCHAR(MAX) = NULL, @STATUS INT = NULL, @PRECO float = NULL, @IDUSUARIO INT = NULL,
+@IDCATEGORIA INT = NULL, @LOGIN VARCHAR(MAX) = NULL, @SENHA VARCHAR(MAX) = NULL, @ACAO INT = NULL
+AS 
+
+-- 0 = BUSCAR USUARIO
+-- 1 = BUSCA USUARIO E SENHA
+-- 2 = BUSCAR CATEGORIAS
+-- 3 = BUSCAR PRODUTOS
+-- 4 = INSERIR PRODUTOS
+-- 5 = INSERIR CATEGORIA
+-- 6 = BUSCA CATEGORIA CADASTRADA
+-- 7 = BUSCA PRODUTO CADASTRADO
+
+IF @ACAO = 0 
+BEGIN
+	SELECT LOGIN, SENHA 
+	FROM TesteTI.CadProdutos.tbUsuarios
+	WHERE LOGIN = @LOGIN
+RETURN
+END
+ELSE IF @ACAO = 1
+BEGIN
+	SELECT LOGIN, SENHA 
+	FROM TesteTI.CadProdutos.tbUsuarios
+	WHERE LOGIN = @LOGIN
+	AND SENHA = @SENHA
+RETURN
+END
+ELSE IF @ACAO = 2
+BEGIN
+	SELECT ID, DESCRICAO 
+	FROM TesteTI.CadProdutos.tbCategoria
+	WHERE ID = ISNULL(@IDCATEGORIA,ID)
+	AND Descricao = ISNULL(@DESCRICAO, Descricao)
+RETURN
+END
+ELSE IF @ACAO = 3
+BEGIN
+	SELECT p.Descricao, c.Descricao as Categoria, p.Preco as Valor
+	FROM TesteTI.CadProdutos.tbProdutos p
+	inner join TesteTI.CadProdutos.tbCategoria c on p.IDCategoria = c.ID
+	WHERE p.Descricao like '%'+ISNULL(@DESCRICAO,p.Descricao)+'%'
+	AND p.IDCategoria = ISNULL(@IDCATEGORIA, IDCategoria)
+RETURN
+END
+ELSE IF @ACAO = 4
+BEGIN
+	INSERT INTO TesteTI.CadProdutos.tbProdutos (Descricao, Preco, IDUsuario, IDCategoria, status, dtCadastro, dtAlteracao)
+	VALUES (@DESCRICAO, @PRECO, NULL, @IDCATEGORIA, 1, GETDATE(), GETDATE())
+RETURN
+END
+ELSE IF @ACAO = 5
+BEGIN
+	INSERT INTO TesteTI.CadProdutos.tbCategoria (Descricao, status, dtCadastro, dtAlteracao)
+	VALUES (@DESCRICAO, 1, GETDATE(), GETDATE())
+RETURN
+END
+ELSE IF @ACAO = 6
+BEGIN
+	SELECT * 
+	FROM TesteTI.CadProdutos.tbCategoria
+	WHERE Descricao = @DESCRICAO
+RETURN
+END
+ELSE IF @ACAO = 7
+BEGIN
+	SELECT * 
+	FROM TesteTI.CadProdutos.tbProdutos
+	WHERE Descricao = @DESCRICAO
+RETURN
+END
+GO
+
+
